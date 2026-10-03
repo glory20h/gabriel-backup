@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy — Gabriel backup</title>
+<style>
+  body { max-width: 42rem; margin: 4rem auto; padding: 0 1.25rem; font: 1.1rem/1.6 system-ui, sans-serif; color: #202020; background: #fff; }
+  a { color: #0645ad; }
+</style>
+<main>
+  <h1>Privacy policy</h1>
+  <p>Gabriel backup is a personal backup tool operated by its owner. This policy describes its Google Drive backup storage.</p>
+  <h2>Google Drive access</h2>
+  <p>The owner grants rclone access to Google Drive. The configured Drive permission permits access to files across that account. Backup operations list, read, create, and delete repository files as needed for storage, restore, and retention.</p>
+  <h2>Data storage</h2>
+  <p>Restic encrypts backup contents before rclone uploads them to the owner's Google Drive. Google stores the encrypted repository objects and can see storage metadata such as object names and sizes.</p>
+  <p>OAuth credentials are stored on the owner's server and used by rclone to access Google Drive.</p>
+  <h2>Retention and removal</h2>
+  <p>The owner's backup settings control retention. The owner can revoke this application's access in Google Account settings. Revoking access does not delete backups already stored in Google Drive; the owner can remove those separately.</p>
+  <p><a href="index.html">Gabriel backup home</a></p>
+</main>
+</html>
